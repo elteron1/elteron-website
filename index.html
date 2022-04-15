@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs-cz">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +13,7 @@
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="style.css">
 
-    <title>Responsive portfolio website - CrypticalCoder</title>
+    <title>Elteron</title>
 </head>
 <body>
     <!--=============== Hlava stránky ===============-->
@@ -32,26 +32,26 @@
                         <a href="#home" class="nav-link active-link">Domů</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link">O mně</a>
+                        <a href="#omne" class="nav-link">O mně</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#webhosting" class="nav-link">Web hosting</a>
+                        <a href="#hosting" class="nav-link">Hosting</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#extensions" class="nav-link">Chrome rozšíření</a>
+                        <a href="#pcsetup" class="nav-link">Pc setup</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#support" class="nav-link">Tech podpora</a>
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link">Kontakt</a>
+                        <a href="#techpodpora" class="nav-link">Tech podpora</a>
                     </li>
                 </ul>
             </div>
             <!-- Navigační tlačítko-->
             <div class="nav-btns">
                 <!-- Tlačítko na změnění themu -->
-                <i class="lni lni-pallet chang-theme" id="theme-button"></i>
+                <i class="lni lni-pallet change-theme" id="theme-button"></i>
                 <!-- Toggle Tlačítka-->
                 <div class="nav-toggle" id="nav-toggle">
                     <i class="lni lni-grid-alt" ></i>
@@ -62,22 +62,354 @@
     <!--=============== Hlavní část ===============-->
     <main class="main-content">
         <!--=============== Domovská stránka ===============-->
-        
+        <section class="home" id="home">
+            <div class="container">
+                <!-- Intro -->
+                <div class="intro">
+                    <!-- Avatar -->
+                    <img src="assets/img/avatar-1-crop.png" alt="Elteron">
+                    <!-- Info -->
+                    <h1></h1>
+                    <span>Jsem <span class="info-text">wannabe "programátor"</span></span>
+                    <!-- Social icons -->
+                    <ul class="social-icons">
+                        <li><a target="_blank" href="https://www.instagram.com/_elteron_/"><i class="lni lni-instagram-original"></i></a></li>
+                        <li><a target="_blank" href="https://twitter.com/elt_eron"><i class="lni lni-twitter-original"></i></a></li>
+                        <li><a target="_blank" href="https://github.com/elteron1"><i class="lni lni-github-original"></i></a></li>
+                        <li><a target="_blank" href="https://www.reddit.com/user/elteroncz"><i class="lni lni-reddit"></i></a></li>
+                        <li><a target="_blank" href="https://discord.gg/4Wd5B2vQ8S"><i class="lni lni-discord"></i></a></li>
+                    </ul>
+                    <!-- button -->
+                    <div>
+                        <a href="mailto: matejtomanek@elteron.cz" class="btn btn-default">Napiš mi</a>
+                    </div>
+                    <!-- Potáhnutí dolů tlačítko -->
+                    <div class="scroll-down">
+                        <a href="#" class="mouse-wrapper">
+                            <span>Potáhni dolů</span>
+                            <span class="mouse">
+                                <span class="wheel"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!--=============== O mně ===============-->
+        <section class="about section" id="omne">
+            <div class="container">
+                <!-- Nadpis sekce -->
+                <h2 class="section-title padd-15">O mně</h2>
+                <div class="row">
+                    <div class="about-img padd-15">
+                        <!-- Logo --->
+                        <img src="assets/img/avatar-2.png">
+                    </div>
+                    <div class="about-content padd-15">
+                        <div class="rounded">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <!-- Text o mně  -->
+                                    <p>Já jsem Matěj ale na internetu si říkám Elteron je mi 16let a baví mě programování, server hosting a opravování elektroniky. Právě chodím na střední průmyslovou školu elektrotechnickou na obor Elektrotechnika a zaměření IoT</p>
+                                    <p>Programování jsem se začal věnovat teprve nedávno. Programovat jsem se začal učit na jazyku C, poté jsem přešel na HTML, CSS, JavaScript, React a to se učím do teď. V budoucnu se chystám naučit Javu, Kotlin, Go, Rust a možná i C++</p>
+                                    <p>Tech podpoře a opravování elektroniky se už věnuji dost dlouho na to, abych dokázal vyřešit většinu problému na které bych narazil</p>
+                                    <p>Server hostingu jsem se začal taky věnovat nedávno, ale už jsem schopný hostovat všelijaké weby. Určitě již brzy budu schopný hostovat i cloudová úložiště a kvalitu mého hostování si můžete ověřit když kliknete na tlačítko pod tímto textem.</p>
+                                    <div>
+                                        <a href="#" class="btn btn-default">Stav hostingu</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Rychlý údaj -->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-website"></i>
+                        <div class="details">
+                            <h3>3</h3>
+                            <p>Hostované stránky</p>
+                        </div>
+                    </div>
+                    <!-- Rychlý údaj -->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-chrome"></i>
+                        <div class="details">
+                            <h3>2</h3>
+                            <p>Chrome rozšíření</p>
+                        </div>
+                    </div>
+                    <!-- Rychlý údaj -->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-javascript"></i>
+                        <div class="details">
+                            <h3>6</h3>
+                            <p>Javascript apek</p>
+                        </div>
+                    </div>
+                    <!-- Rychlý údaj -->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-code"></i>
+                        <div class="details">
+                            <h3>168 686</h3>
+                            <p>Řádků kodu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Služby - Hosting  ===============-->
+        <section class="services section" id="hosting">
+            <div class="container">
+                <!-- Nadpis sekce -->
+                <h2 class="section-title padd-15">Hosting</h2>
+                <div class="row">
+                    <!-- Host item -->
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner" style="background: rgb(108,108,229)">
+                            <img src="assets/img/cloud-server.png" alt="">
+                            <h3>Hostování cloudového úložiště</h3>
+                            <p>Zatím ještě nemám možnost hostovat cloudové úložiště ale v druhé polovině roku 2022 by tato možnost hostování už mohla být dostupná. </p>
+                        </div>
+                    </div>
+                    <!-- Host item -->
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner" style="background: rgb(249,123,139)">
+                            <img src="assets/img/web-hosting.png" alt="">
+                            <h3>Web Hosting</h3>
+                            <p>U mě si můžete zařídit rychlý a spolehlivý hosting pro vaše webové stránky. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text padd-15">
+                    <p>Pokud byste rádi využili moje hostovací služby tak mi můžete napsat na: <a href="mailto: matejtomanek@elteron.cz">matejtomanek@elteron.cz</a></p>
+                </div>
+            </div>
+        </section>
+        <!--=============== Experience - NĚJAK tam NARVAT pc setup xd ===============-->
+        <section class="section" id="pcsetup">
+            <div class="container">
+                <h2 class="section-title">Můj Setup</h2>
+                <div class="row">
+                    <!-- Notebook setup -->
+                    <div class="notebook padd-15">
+                        <div class="row">
+                            <div class="timeline-box">
+                                <div class="timeline">
+                                    <h3 class="timeline-title">Notebook setup</h3>
+                                    <!-- Ikony vlevo-->
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-laptop timeline-icon"></i> - Notebook: Lenovo Legion 5 15ARH05H
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-display-alt timeline-icon"></i> - Monitory: Samsung Odyssey C32HG70, Acer Nitro VG240Ybmiix
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-keyboard timeline-icon"></i> - Klávesnice: Cooler Master CK350 Outemu Blue
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-mouse timeline-icon"></i> - Myš: Logitech mx master 3
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-headphone timeline-icon"></i> - Sluchátka: Corsair HS60 PRO
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-volume timeline-icon"></i> - Reproduktory: Fenda F&D R27BT
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-chevron-right timeline-icon"></i>  - Chytrý Reproduktor: Google Nest Mini
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-chevron-right timeline-icon"></i>  - Podložka na Notebook: Yenkee
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-chevron-right timeline-icon"></i>  - Externí disk: VERBATIM SmartDisk 320GB
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-chevron-right timeline-icon"></i>  - Rgb Světla: Cololight
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-chevron-right timeline-icon"></i>  - Chytré Hodinky: Apple watch
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-chevron-right timeline-icon"></i>  - Bezdrátová nabíječka na mobil: Alza Power WF220
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-chevron-right timeline-icon"></i>  - Network switch: TP-LINK TL-SG105
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-chevron-right timeline-icon"></i>  - Network router: TP-LINK Archer C50
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-chevron-right timeline-icon"></i>  - Gamepad: PlayStation 5 DualSense
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-chevron-right timeline-icon"></i>  - Chytrý Lampa: Yeelight Desk Lamp V1 Pro
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-chevron-right timeline-icon"></i>  - Hdmi Switch: Vention 2 portový HDMI switch
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-chevron-right timeline-icon"></i>  - Televize: Samsung UE40KU6072
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-chevron-right timeline-icon"></i>  - Usb Switch: Ugreen USB 2.0 Switch
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-chevron-right timeline-icon"></i>  - Zvuková karta: Behringer UMC22
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-chevron-right timeline-icon"></i>  - Mikrofon: Behringer XM8500
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-chevron-right timeline-icon"></i>  - Webkamera: HP HD 4310
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-chevron-right timeline-icon"></i>  - Stojánek na sluchátka: Patriot Viper USB 3.0 Hub
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <i class="lni lni-chevron-right timeline-icon last-item"></i>  - Hdmi Switch: Vention 2 portový HDMI switch
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Homelab setup -->
+                    <div class="server padd-15">
+                        <div class="row">
+                            <div class="timeline-box">
+                                <div class="timeline">
+                                    <h3 class="timeline-title">Server setup</h3>
+                                    <!-- Ikony vlevo-->
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <p class="timeline-icon">Hypervisor OS:</p> Proxmox 7
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <p class="timeline-icon">Truenas:</p> NAS Operační systém
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <p class="timeline-icon">Portainer:</p> Organizér na docker konteinery
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <p class="timeline-icon">Pihole:</p> Network-wide Ad blocker
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <p class="timeline-icon">Plex:</p> Media server
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <p class="timeline-icon">Nextcloud:</p> Cloudové úložiště
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <p class="timeline-icon">HomeAssistant:</p> Automatizace chytré domácnosti
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <p class="timeline-icon">Wordpress:</p> Webserver
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <p class="timeline-icon">Bitwarden:</p> Self-hosted password manager
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <p class="timeline-icon">Up Time Kuna:</p> Software na zjištění stavu mého serveru
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <p class="timeline-icon">Nginx:</p> WebServer
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <p class="timeline-icon">Littlelink server:</p> Web server na kontakt stránky
+                                        </p>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <p class="timeline-text">
+                                            <p class="timeline-icon">Virtuální počítače:</p> Artix linux, Windows 10, MacOS Monterey, Debian 11, Void linux
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Pricing - Zatím NE  ===============-->
         
-        <!--=============== Služby ===============-->
+        <!--=============== Portfolio - Chrome extensiony ===============-->
         
-        <!--=============== Experience ===============-->
+        <!--=============== Testimonial - NE NIKDY===============-->
         
-        <!--=============== Pricing ===============-->
+        <!--=============== Blog - Odkaz na wordpress===============-->
         
-        <!--=============== Portfolio ===============-->
-        
-        <!--=============== Testimonial ===============-->
-        
-        <!--=============== Blog ===============-->
-        
-        <!--=============== Kontakt ===============-->
+        <!--=============== Contact - Tech podpora ===============-->
         
         <!--=============== Footer ===============-->
         
@@ -89,6 +421,6 @@
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     
     <!--=============== JS ===============-->
-    <script src="assets/js/main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
