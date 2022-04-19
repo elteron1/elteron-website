@@ -32,17 +32,6 @@ function scrollHeader(){
 }
 window.addEventListener("scroll", scrollHeader)
 
-/*=============== TESTIMONIAL SWIPER ===============*/
-// var swiper = Swiper(".testimonial-wrapper", {
-//     spaceBetween: 30,
-//     loop: 'true',
-//
-//     pagination:{
-//         el: ".swiper-pagination",
-//         clickable: true,
-//     }
-// });
-
 // Highlight sekcí při scrolování
 const section = document.querySelectorAll("section[id]");
 
