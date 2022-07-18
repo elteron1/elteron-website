@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="baaa298d-af7a-4b7d-a1d0-ab288ee70b8a" name="Changes" comment="Added icon of website">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27nfXPGLgifULtjTEn7hdGYHdnH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/main.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.main.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="baaa298d-af7a-4b7d-a1d0-ab288ee70b8a" name="Changes" comment="" />
+      <created>1649960811145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649960811145</updated>
+      <workItem from="1649960812940" duration="3366000" />
+      <workItem from="1650013824811" duration="31534000" />
+      <workItem from="1650110905940" duration="5749000" />
+      <workItem from="1650190861660" duration="28272000" />
+      <workItem from="1650376283218" duration="19000" />
+      <workItem from="1650376309126" duration="70000" />
+      <workItem from="1650376576789" duration="154000" />
+      <workItem from="1650431596517" duration="6000" />
+      <workItem from="1650451339918" duration="1601000" />
+      <workItem from="1650815838563" duration="10981000" />
+      <workItem from="1650868112166" duration="848000" />
+      <workItem from="1650904485055" duration="1225000" />
+      <workItem from="1650988828469" duration="2570000" />
+      <workItem from="1651038598192" duration="613000" />
+      <workItem from="1651055644628" duration="1212000" />
+      <workItem from="1651663936969" duration="1042000" />
+      <workItem from="1652450424136" duration="4000" />
+      <workItem from="1652450434453" duration="36000" />
+      <workItem from="1652456138920" duration="633000" />
+      <workItem from="1652460566716" duration="3124000" />
+      <workItem from="1652523232159" duration="2262000" />
+      <workItem from="1652799777655" duration="19000" />
+      <workItem from="1652898186705" duration="52000" />
+      <workItem from="1655735606991" duration="89000" />
+      <workItem from="1658166793731" duration="1999000" />
+    </task>
+    <task id="LOCAL-00001" summary="First Update">
+      <created>1649964049897</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649964049897</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Update">
+      <created>1649964705187</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649964705187</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Second Update">
+      <created>1650057950679</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650057950679</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Third Update">
+      <created>1650119658022</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650119658022</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Last update before release">
+      <created>1650225603364</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650225603364</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Last update before release">
+      <created>1650376694448</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650376694448</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Last update before release">
+      <created>1650833116654</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650833116654</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Last update before release">
+      <created>1652464439189</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1652464439189</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added icon of website">
+      <created>1652898208947</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652898208947</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added icon of website">
+      <created>1655735629447</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655735629448</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First Update" />
+    <MESSAGE value="Second Update" />
+    <MESSAGE value="Third Update" />
+    <MESSAGE value="Last update before release" />
+    <MESSAGE value="Added icon of website" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added icon of website" />
+  </component>
+</project>
